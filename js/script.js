@@ -106,7 +106,6 @@ function searchFunc (searchInput, student) {
         pagesUl.innerHTML = `No students found`;
     }
 
-    console.log('searchList: ', searchList);
     addPagination(searchList);
   }
 
